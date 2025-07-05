@@ -1,4 +1,4 @@
-# 🧍‍♂️ Real-Time Full-Body Motion Tracking using MediaPipe + OpenCV
+# 🧍‍♂🖥️ Real-Time Full-Body Motion Tracking using MediaPipe + OpenCV
 
 ## 📌 Overview
 This project demonstrates a real-time full-body pose detection system using MediaPipe's Holistic model and OpenCV. It captures and tracks face, hand, and body landmarks using just a webcam, making it useful for interactive AI applications like fitness, gaming, education, and more.
@@ -35,30 +35,24 @@ However, the system works effectively even with full-body posture and complex ge
 
 ## 📦 Installation
 Clone the repository
-'''
+```bash
 git clone https://github.com/yourusername/real-time-pose-tracking.git
 cd real-time-pose-tracking
-'''
+```
 Create a virtual environment (optional but recommended)
-
-bash
-Copy
-Edit
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 Install dependencies
-
-bash
-Copy
-Edit
+```
 pip install opencv-python mediapipe
+```
 ▶️ How to Run
-bash
-Copy
-Edit
+```
 python pose_tracking.py
+```
 A webcam window will open.
-
 Move your hands, face, and body—landmarks will be drawn in real time.
 
 ## 🌍 Potential Applications
